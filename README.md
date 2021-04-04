@@ -2,10 +2,4 @@
 
 Following [this tutorial](https://www.linkedin.com/learning/learning-github-actions-2)
             
-
-    
-. . . 
-
- ===== a2
- 
-1
+##### A 
