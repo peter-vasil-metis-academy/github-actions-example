@@ -48,7 +48,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      # First we have to checkout our repository to workspace directory
       - uses: actions/checkout@v2
+      # After repository checkout we can print README.md file from repository
       - name: Print README.md
         run: cat README.md
 
