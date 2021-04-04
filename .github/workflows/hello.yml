@@ -43,6 +43,11 @@ jobs:
           run: |
             echo Add other actions to build,
             echo test, and deploy your project.
-  
-  
-  
+
+  print-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print README.md
+        run: cat README.md
+
